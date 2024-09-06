@@ -1,0 +1,75 @@
+body {
+    background-image: url(./Images/netflix-background-image.jpg);
+    margin: 0;
+}
+
+#full_screen {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%, 8%;
+    height: 20%;
+} 
+
+#logo {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 30px;
+}
+
+#button {
+    text-align: right;
+    justify-content: space-between;
+    width: 60%;
+    padding: 30px;
+}
+
+#signin, #register {
+    background: red;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 20px, 20px;
+    font-weight: bold;
+    width: 5.5vw;
+    height: 2vw;
+    margin-left: 8px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+h1, p {
+    color: white;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 13px;
+}
+
+#p1 {
+    font-size: 28px;
+}
+
+#p2 {
+    font-size: 23px;
+}
+
